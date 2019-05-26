@@ -5,6 +5,10 @@ describe "nested hash" do
   describe "#hopper" do 
     it "operates on the programmer_hash and returns the value of the :grace_hopper key" do
       expect(hopper).to eq({:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]})
+      my_hash = { firs: "i'm first!", second: "i,m second",
+
+      }
+      my_hash ={ first: "i'm first!," second:"i'm secnd!, thrid: "i'm third!"
 
     end
   end
